@@ -103,10 +103,6 @@ public final class AnalysisMain {
             System.err.println(e.getLocalizedMessage());
             commander.usage();
         }
-
-// Code for running accuracy tests for TEntryEventSequence
-
-    	
     }
 
     private void execute(final JCommander commander) throws IOException {
