@@ -105,23 +105,7 @@ public final class AnalysisMain {
         }
 
 // Code for running accuracy tests for TEntryEventSequence
-//    	TEntryEventSequenceTest usagebehaviorTest = new TEntryEventSequenceTest();
-//    	usagebehaviorTest.startTests();
-//    	usagebehaviorTest.startRMETest();
-//    	
-//    	ClusteringEvaluation clusteringEval = new ClusteringEvaluation(4000, 2000, 2000, 0, 100);
-//    	clusteringEval.evaluateTheClustering();
-//    	clusteringEval = new ClusteringEvaluation(2000, 4000, 2000, 0, 100);
-//    	clusteringEval.evaluateTheClustering();
-//    	clusteringEval = new ClusteringEvaluation(2000, 2000, 4000, 0, 100);
-//    	clusteringEval.evaluateTheClustering();
-//    	
-//    	clusteringEval = new ClusteringEvaluation(4000, 2000, 2000, 10, 100);
-//    	clusteringEval.evaluateTheClustering();
-//    	clusteringEval = new ClusteringEvaluation(2000, 4000, 2000, 10, 100);
-//    	clusteringEval.evaluateTheClustering();
-//    	clusteringEval = new ClusteringEvaluation(2000, 2000, 4000, 10, 100);
-//    	clusteringEval.evaluateTheClustering();
+
     	
     }
 
