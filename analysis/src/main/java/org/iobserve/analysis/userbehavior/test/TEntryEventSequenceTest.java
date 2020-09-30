@@ -338,8 +338,17 @@ public final class TEntryEventSequenceTest {
 
             
         }
+		
+		String fileName = "SimpleSequenceRME_";
+		
+		if(closedWorkload == true) {
+			fileName = fileName + "closedWorkload";
+		} else {
+			fileName = fileName + "openWorkload";
+		}
+			
 
-        TestHelper.writeRME(resultsRME, TEST_RESULTS_FOLDER + "SimpleSequenceRME_closedWorkload_" + closedWorkload);
+        TestHelper.writeRME(resultsRME, TEST_RESULTS_FOLDER + fileName);
     }
     
     // Obviously not Used for accuracy testing
